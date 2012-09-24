@@ -1,3 +1,5 @@
+#показывает имя бранча
+export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w $(__git_ps1 "(%s)") \$\[\033[00m\] '
 # общие команды git
 alias giad='git add'
 alias gico='git commit'
