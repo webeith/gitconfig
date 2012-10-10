@@ -1,6 +1,19 @@
+[gui]
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 798x616+333+226
+	main-window-view = FileView
+	history-view-vpane-position = 790
+[gui]
+	recentrepo = /home/buharin/public_html/fusion.dev.com
+[http]
+	sslVerify = false
 [color]
-ui="always"
-diff="always"
+	branch = auto
+	diff = always
+	interactive = auto
+	status = auto
+	ui = always
 [alias]
 s = status
 b = branch
@@ -33,3 +46,5 @@ ka = !gitk --all
 kdo = !gitk --date-order
 kado = !gitk --all --date-order
 kasd = !gitk --all --simplify-by-decoration
+[core]
+	autocrlf = true
